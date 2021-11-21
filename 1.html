@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="1.css">
+	<title>Cô em xì tin</title>
+</head>
+<body>
+	<div>
+		<img src="./images/dau.png" alt="" id="dau">
+	</div>
+	<div>
+		<img src="./images/thân.png" alt="" id="than">
+	</div>
+	<div>
+		<img src="./images/mông.png" alt="" class="pussy1" id="pussy">
+	</div>
+	<span id="status">Đít to quá bạn ơi</span>
+</body>
+<script>
+	function playSound() {
+	const audio = new Audio('./audio/hentai.mp3.mp3');
+	audio.play();
+}
+
+const pussyy = document.querySelector('#pussy');
+
+pussyy.onclick = () => {
+	playSound();
+	pussyy.style.top = '-50px';
+	setTimeout(() => {
+		pussyy.style.top = '-10px';
+	}, 1000);
+}
+</script>
+</html>
