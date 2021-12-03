@@ -1,0 +1,24 @@
+#pussy {
+	position: relative;
+	width: 500px;
+	left: 450px;
+	height: 350px;
+	transition: all 1s;
+}
+
+#than {
+	position: relative;
+	left: 450px;
+	width: 500px;
+}
+
+#dau {
+	position: relative;
+	left: 450px;
+	width: 500px;
+}
+
+#status {
+	font-size: 30px;
+	color: red;
+}
