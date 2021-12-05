@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="login">
+            <h2>Member login</h2>
+            <div class="pass">
+                <input class="user" type="text" placeholder="username">
+                <input type="password" placeholder="password">
+                <img onclick="myfunction()" src="/images/eye.png">
+            </div>
+            <button>Login</button>
+        </div>
+        <script type="text/javascript">
+            var x = true;
+            function myfunction(){
+                if(x){
+                    document.getElementById('pass').type = "text";
+                    x = false;
+                }else{
+                    document.getElementById('pass').type = "password";
+                    x = true;
+                }
+            }
+        </script>
+    </body>
+</html>
